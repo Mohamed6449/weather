@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- https://api.openweathermap.org/data/2.5/weather?q=cairo&appid=22fb91fd2482666dfa0fc649ace2a65e&units=metric -->
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +16,29 @@
     <img src="photo/cloudy.png" class="weatherImg"/>
     <h1 class="temp">
       22c
-    </h1>
-    <h1 class="city">
+    </h1>     
+    <h2 class="city">
       Cairo
-    </h1>
+    </h2>
+    <div class="details">
+       <div class="col">
+        <img src="photo/humidity.png" />
+        <div>
+          <p class="humidity">50%</p>
+          <p>Humidity</p>
+        </div>
+       </div>
+       <div class="col">
+        <img src="photo/wind.png" />
+        <div>
+          <p class="wind">29 kh</p>
+          <p>Wind speed</p>
+        </div>
+       </div>
+    </div>
   </div>
 </div>
 
-
+<script src="main.js"></script>
 </body>
 </html>
