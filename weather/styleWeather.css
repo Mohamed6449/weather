@@ -37,7 +37,7 @@ body{
     font-size: 18px;
 }
 .search button{
-        border: 0;
+    border: 0;
     outline: 0;
     background: #ebfffc;
     border-radius: 50%;
@@ -57,7 +57,7 @@ body{
 }
 
 .weather h1{
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 500px;
 }
 .weather h2{
