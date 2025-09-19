@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #002f4d;
+    color: #fff;
+    display: flex;
+}
+.container{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-image: url(photo/beach.avif);
+    background-size: cover;
+
+}
+.play{
+    display: flex;
+    justify-content: center;
+    
+}
+.play button{
+    margin-top: 20px;
+    padding: 0 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#stop{
+    width: 40px;
+    height: 30;
+}
+#play{
+        width: 69px;
+}
+#reset{
+        width: 40px;
+}
+p{
+    margin-top: 50px;
+    font-size: 80px;
+}
+
